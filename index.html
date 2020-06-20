@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d9d9de598f.js" crossorigin="anonymous"></script>
+    <!-- Load React API -->
+    <script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <!-- Load React DOM-->
+    <script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <!-- Load Babel Compiler -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+    <script>
+        $('.carousel').carousel({
+            interval: false,
+        });
+    </script>
+    <script type="text/babel">
+        ReactDOM.render(
+         <h1>Hello.</h1>,document.getElementById('id01'));
+        const name = 'Joe';
+        ReactDOM.render(<h1>Hello World! {name}
+        </h1>,document.getElementById('title'));
+    </script>
+
+
+
+</head>
+<body class="all-fonts">
+<section class="colored-section" id="title">
+<div class="container-fluid">
+ <nav class="navbar  navbar-expand-lg navbar-dark">
+
+    <a class="navbar-brand" href="https://www.mashvisor.com/">
+        <img class="head-image" src="https://cdnp0.stackassets.com/ca6e7143bf405512c0655d83445253f7c139a95c/store/opt/596/417/05484e6e8f0d8d49f849284aac0a35fb0e837a0d3d5d43c4c187e6141352/sale_24696_primary_image.jpg" alt="phone-pic">
+        Mashvisor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#solutions">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#user-satisfaction">Ratings</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+            </li>
+
+
+
+        </ul>
+    </div>
+ </nav>
+
+<div class="row">
+    <div class="col-lg-6">
+        <h1 class="big-heading">Find Good Real Estate Deals Anytime, Anywhere.</h1>
+        <button type="button"  class="btn download-button btn-dark btn-lg" data-toggle="popover"  data-trigger="hover"><i class="fab fa-apple"></i>Download</button>
+        <button type="button" class="btn download-button btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+        <button type="button" class="btn download-button btn-secondary btn-lg"><i class="fas fa-laptop"></i> Download</button>    </div>
+    <div class="col-lg-6">
+        <img src="images/m_iphone.jpg" class="title-image" alt="iphone-mockup">
+    </div>
+
+</div>
+</div>
+</section>
+
+
+<!--Features-->
+
+<section id="features" class="white-section">
+    <div class="container-fluid">
+
+
+        <div class="row">
+            <div class="col-lg-4 feature-box">
+                <i class="fas fa-check-circle fa-4x icon"></i>
+                <h3 class="feature-title">Easy to use.</h3>
+                <p>So easy to use, with high mobile friendliness.</p>
+            </div>
+            <div class="col-lg-4 feature-box">
+                <i class="fas fa-bullseye fa-4x icon"></i>
+                <h3 class="feature-title">Elite Clientele</h3>
+                <p>We have it all, the greatest houses & apartments.</p>
+            </div>
+            <div class="col-lg-4 feature-box">
+                <i class="fas fa-heart fa-4x icon"></i>
+                <h3 class="feature-title">Guaranteed to work.</h3>
+                <p>Find the perfect investment or your money back.</p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- Testimonials -->
+
+<section class="colored-section" id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide"  data-interval="false">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active container-fluid">
+                <h3 class="testimonial-text">You no longer need to worry about the value of your mansion. </h3>
+                <img class="testimonial-image" src="images/mansion.jpg" alt="mansion-pic">
+                <em>California, Hollywood Hills</em>
+            </div>
+            <div class="carousel-item container-fluid">
+                <h3 class="testimonial-text">I used to be worried before travelling on a business trip to New York that I'll never find a good apartment to rent, but with Mashvisor's help, I can now go to New York without worrying about a place to crash.</h3>
+                <img class="testimonial-image" src="images/apartment.jpg" alt="apartment-pic">
+                <em>Manhattan, New York</em>
+            </div>
+            <div class="carousel-item container-fluid">
+                <h3 class="testimonial-text">Is my house in Orange County worth selling now, or should I wait?</h3>
+                <img class="testimonial-image" src="images/house.jpg" alt="house-pic">
+                <em>Orange County, California</em>
+            </div>
+            <div class="carousel-item container-fluid">
+                <h3 class="testimonial-text">Buy/Sell.</h3>
+                <h4 class="testimonial-text">Rent.</h4>
+                <h5 class="testimonial-text">Invest.</h5>
+                <h6 class="testimonial-text">All in one place.</h6>
+                <img src="images/money.jpg" class="testimonial-image" alt="pic">
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+
+<!-- Pricing -->
+
+<section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Need</h2>
+    <p>Simple and tempting price plans for you.</p>
+
+    <div class="row">
+        <div class="col-lg-3 col-md-6 pricing-column">
+            <div class="card">
+                <div class="car-header">
+                    <h3>Free trial</h3>
+
+                </div>
+                <div class="card-body">
+                    <h2 class="price-text">Free</h2>
+                    <p>Active 'For Sale' Filter</p>
+                    <p>Valid for 7 days only</p>
+                    <p>Real Market Insights</p>
+                    <p>2 Cities in Property Finder</p>
+                    <button class="btn btn-outline-primary btn-lg btn-block" type="button">Sign Up</button>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-3 col-md-6 pricing-column">
+            <div class="card">
+                <div class="car-header">
+                    <h3>Basic</h3>
+                </div>
+                <div class="card-body">
+                    <h2 class="price-text">$89.97/    3 months</h2>
+                    <p>Investment Property Search</p>
+                    <p>Airbnb & Traditional Rental Comps</p>
+                    <p>Airbnb Occupancy Rates</p>
+                    <p>Property Reports</p>
+                    <p>3 Cities in Property Finder</p>
+                    <button class="btn btn-primary btn-lg btn-block" type="button">Sign Up</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-3 col-md-6 pricing-column">
+            <div class="card">
+                <div class="car-header">
+                    <h3>Professional</h3>
+                </div>
+                <div class="card-body">
+
+                    <h2 class="price-text">$174.99/    3 months</h2>
+                    <p>Investment Property Search</p>
+                    <p>Airbnb & Traditional Rental Comps</p>
+                    <p>Airbnb Occupancy Rates</p>
+                    <p>Property Reports</p>
+                    <p>Property Design Analysis</p>
+                    <p>Traditional Heatmap</p>
+                    <p>Airbnb Heatmap</p>
+                    <p>5 Exports per month</p>
+                    <p>3 Cities in Property Finder</p>
+                    <button class="btn btn-primary btn-lg btn-block" type="button">Sign Up</button>
+                </div>
+            </div>
+
+        </div>
+
+            <div class="col-lg-3 col-md-6 pricing-column">
+                <div class="card">
+                    <div class="car-header">
+                        <h3>Expert</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">$279.99/  3 months</h2>
+                        <p>Investment Property Search</p>
+                        <p>Airbnb & Traditional Rental Comps</p>
+                        <p>Airbnb Occupancy Rates</p>
+                        <p>Property Reports</p>
+                        <p>Property Design Analysis</p>
+                        <p>Traditional Heatmap</p>
+                        <p>Airbnb Heatmap</p>
+                        <p>25 Exports per month</p>
+                        <p>Request Unavailable Cities</p>
+                        <p>Multi-Family Pro</p>
+                        <p>5 Cities in Property Finder</p>
+                        <button class="btn btn-primary btn-lg btn-block" type="button">Sign Up</button>
+
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+
+</section>
+
+
+<!--Problems/Solutions Section-->
+
+
+
+<section class="colored-section" id="solutions">
+    <div class="container-fluid">
+        <h1>Here is a Set of Solutions For The Regular Real Estate Troubles</h1>
+        <hr class="my-hr">
+        <div class="row">
+            <div class="col-lg-4 feature-box">
+                <i class="fas fa-hourglass-half fa-4x icon1"></i>
+                <h3 class="feature-title">1) Less-time consuming</h3>
+                <p>Beginning real estate investors usually spend 3 months whenever they are conducting research about markets and specific rental properties.
+                    As a result, they close fewer deals compared to more experienced real estate investors.
+                    With Mashvisor, the research process can be completed in just 15 minutes.</p>
+                <img src="images/p1.jpg" class="solution-image" alt="solution1">
+            </div>
+
+            <div class="col-lg-4 feature-box">
+                <i class="fas fa-chart-line fa-4x icon1"></i>
+                <h3 class="feature-title">2) Faster investment analysis</h3>
+                <p>
+                    Real estate investors, sometimes, are not able to analyze and evaluate off-market rental
+                    properties fast enough before other investors or home buyers purchase those properties.
+                    Mashvisor solves this problem by allowing investors to quickly compare the performance of an off-market rental property to that of other rental properties in the same area in terms of startup and recurring costs,
+                    expected rental income, cash flow, cash on cash return, cap rate, and occupancy rate.
+                    In addition, the platform provides investors with all the data they need about the owners of off-market properties and permits them to communicate with them directly within Mashvisor.
+                </p>
+                <img src="images/p2.jpg" class="solution-image" alt="solution2">
+            </div>
+            <div class="col-lg-4 feature-box">
+                <i class="fas fa-coins fa-4x icon1"></i>
+                <h3 class="feature-title">3) Guaranteed to get qualified leads.</h3>
+                <p>
+                    Real estate agents may successfully generate potential buyers of rental properties, but they are not given a way to find out if these leads are qualified and worthy of their time. Sometimes, they are spending a lot of weeks engaging with potential property buyers who end up not purchasing the property.
+                    Through the aid of Mashvisor’s lead qualification tool, real estate agents are now capable of knowing whether or not a lead is more likely to buy a property in the coming weeks or months.</p>
+                <img src="images/p3.png" class="solution-image" alt="solution3">
+
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!--User Satisfaction Section-->
+
+<section id="user-satisfaction" class="white-section">
+    <div class="container-fluid">
+        <h4>Many Users are Satisfied With Our Service</h4>
+        <h5>Consider being one of them</h5>
+
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Positive Social Media Mentions</th>
+                <th scope="col">98</th>
+                <th scope="col"><i class="fas fa-thumbs-up fa-2x"></i></th>
+            </tr>
+            </thead>
+            <thead>
+            <tr>
+                <th scope="col">Negative Social Media Mentions</th>
+                <th scope="col">2</th>
+                <th scope="col"><i class="fas fa-thumbs-down fa-2x"></i></th>
+            </tr>
+            </thead>
+            <thead>
+            <tr>
+                <th scope="col"> User Satisfaction : 98%</th>
+                <th scope="col">Our score: 9.0 ratings</th>
+                <th scope="col"><i class="fas fa-crown fa-2x"></i></th>
+
+            </tr>
+
+
+            </thead>
+
+        </table>
+
+
+
+
+    </div>
+
+</section>
+
+<!-- Call to Action -->
+
+<section class="colored-section" id="cta">
+    <div class="container-fluid">
+
+
+        <h3 class="cta-h3">Find the Most Suitable Real Estate Today.</h3>
+        <img src="images/real-estate.jpg" class="cta-image" alt="real-pic"><br>
+        <button type="button" class="btn download-button btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn download-button btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+        <button type="button" class="btn download-button btn-secondary btn-lg"><i class="fas fa-laptop"></i> Download</button>    </div>
+
+    </div>
+</section>
+
+
+<!--Footer Section-->
+
+<footer class="white-section" id="footer">
+    <div class="container-fluid">
+
+        <a href="https://www.facebook.com/Mashvisor/app/100265896690345/">
+            <i class="fab fa-facebook-square fa-3x" id="fb-icon"></i></a>
+
+        <a href="https://www.instagram.com/mashvisorcom/">
+            <i class="fab fa-instagram fa-3x" id="ig-icon"></i></a>
+        <a href="https://twitter.com/Mashvisor">
+            <i class="fab fa-twitter-square fa-3x" id="tw-icon"></i></a>
+        <a href="mailto:support@mashvisor.com">
+            <i class="fas fa-envelope fa-3x" id="mail-icon"></i></a>
+        <br>
+        <a href="https://www.youtube.com/mashvisor">
+            <i class="fab fa-youtube fa-3x" id="youtube-icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/mashvisor">
+            <i class="fab fa-linkedin fa-3x" id="LI-icon"></i>
+        </a>
+        <a href="https://flipboard.com/@mashvisor/creative-real-estate-investing-n7bgie5lz">
+            <i class="fab fa-flipboard fa-3x" id="flip-icon"></i>
+        </a>
+        <br>
+        <a class="btn" href="tel: +001 (415) 742-8118"><i class="fas fa-phone-volume"></i>(415) 742-8118</a>
+
+
+        <p class="Copyright">© Copyright 2020 Mashvisor</p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>

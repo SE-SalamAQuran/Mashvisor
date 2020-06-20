@@ -1,0 +1,308 @@
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0  4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat-light";
+    font-size: 1.2rem;
+}
+
+/* Tag Selectors */
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 10%;
+    font-weight: bold;
+}
+
+
+p{
+    color: #000000;
+}
+
+/* Headings Section */
+
+.big-heading{
+    font-family: "Montserrat-Bold" , sans-serif;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.all-fonts{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.head-image{
+    width: 4rem;
+    margin-right: 10px;
+}
+.colored-section{
+    background-color: #63b7af;
+    color: #fff;
+}
+.title-image{
+    width: 10rem;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 25%;
+
+}
+#title.container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*@media (max-width: 1100px) {*/
+
+/*}*/
+
+#title{
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Features Section*/
+#features.container-fluid{
+    padding: 7% 15%;
+}
+
+.white-section{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.icon{
+    color: #abf0e9;
+    margin-bottom: 1.5rem;
+}
+
+.icon:hover{
+    color: #63b7af;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+/* Testimonials Section */
+#testimonials{
+    background-color: #abf0e9;
+    color: #FFF;
+    text-align: center;
+}
+
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 35rem;
+    margin: 20%;
+    float: bottom;
+}
+@media (max-width: 1000px),(min-width: 1500px) {
+
+    .testimonial-image{
+        position: static;
+        border-radius: 0%;
+        margin-top: 2rem;
+        width: 10rem;
+    }
+    .testimonial-text{
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+    em{
+        padding: 26%;
+    }
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 70px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 6%;
+}
+
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+ /*Solutions Section*/
+#solutions{
+    color: #FFFFFF;
+    text-align: center;
+    /*font-size: 0.2rem;*/
+}
+#solutions p{
+    color: #FFFFFF;
+}
+.icon1{
+    color: white;
+}
+.solution-image{
+    width: 15rem;
+    float: bottom;
+}
+
+.my-hr{
+    border: dotted 5px;
+    color: whitesmoke;
+    border-top: 0;
+    width: 40%;
+}
+
+/*User Satisfaction*/
+.table{
+    margin-top: 5%;
+}
+#user-satisfaction{
+    text-align: center;
+    font-family:  "Montserrat" , "sans-serif";
+    /*font-weight: bold;*/
+}
+.fa-crown{
+    color: Gold;
+}
+.fa-thumbs-up{
+    color: blue;
+}
+.fa-thumbs-down{
+    color: crimson;
+}
+
+/* CTA Section */
+#cta{
+    font-family: "Montserrat";
+    font-weight: bold;
+    background-color: #abf0e9;
+    color: #FFF;
+    text-align: center;
+
+}
+.cta-h3{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0 5% 5%;
+}
+.cta-image{
+    width: 15rem;
+    float: end;
+}
+
+/* Footer Section */
+#footer{
+    background-color: #fff;
+    padding: 5%;
+    text-align: center;
+}
+.container-fluid, i{
+    padding: 2%;
+}
+.Copyright{
+    color: #8f8f8f;
+    margin-top: 2%;
+}
+#fb-icon{
+    color: #007bff;
+}
+#fb-icon:hover{
+  color: #0b668e;
+}
+
+
+#ig-icon{
+    color: rgb(219, 81, 109);
+
+}
+#ig-icon:hover{
+    color: #C13584;
+
+}
+#tw-icon{
+    color: aquamarine;
+}
+#tw-icon:hover{
+    color: cornflowerblue;
+}
+#mail-icon{
+    color: black;
+}
+#mail-icon:hover{
+    color: darkslategrey;
+}
+#LI-icon{
+color: #007bff;
+}
+#LI-icon:hover{
+color: blue;
+}
+#flip-icon{
+    color: red;
+}
+#flip-icon:hover{
+    color: firebrick;
+}
+
+#youtube-icon{
+    color: red;
+}
+#youtube-icon:hover{
+    color: rgba(255, 0, 0, 0.67);
+}
